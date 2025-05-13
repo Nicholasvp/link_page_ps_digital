@@ -139,13 +139,13 @@ html, body {
   height: 100%;
   object-fit: cover;
   z-index: -1; /* Coloca a imagem atrás do texto */
-  opacity: 0.5; /* Ajuste a opacidade para melhorar a legibilidade do texto */
+  opacity: 0.4; /* Ajuste a opacidade para melhorar a legibilidade do texto */
 }
 .link-card h2 {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: center;
+  text-align: start;
   margin: 10px 0;
 }
 
@@ -190,9 +190,12 @@ html, body {
 .footer {
   text-align: center;
   padding: 30px 20px;
-  margin-bottom: 20px;
   color: #555;
   font-size: 0.85rem;
+}
+
+.link-wpp-nicholas{
+  margin-bottom: 100px;
 }
 
 /* Responsivo */
